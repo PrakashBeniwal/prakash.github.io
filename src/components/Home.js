@@ -6,7 +6,7 @@ import boy from '../img/boy.png'
 
 import vector1 from '../img/Vector1.png'
 import vector2 from '../img/Vector2.png'
-import './home.css'
+
 export const Home = () => {
 
     return (
