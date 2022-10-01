@@ -47,23 +47,23 @@ const [calculate,setCalculate]=useState({
     </div>
   </div>  */}
 
-  <div className='container'>
-  <div style={{margin:'50px'}}>
+  <div className=' text-center bg-gray-500 text-xl'>
+  <div >
  
- <label classNameName='mx-3' htmlhtmlFor="quantity"><h1>speed</h1></label>
- <input style={{borderRadius:'30px'}} className='mx-3' type="number" name="speed" value={result}></input>
+ <label className='mx-3  text-4xl ' htmlhtmlFor="quantity"><h1>Speed</h1></label>
+ <input  className='mx-5 rounded px-4' type="number" name="speed" value={result}></input>
  </div>
- <div style={{margin:'50px'}}>
+ <div >
  
- <label classNameName='mx-3' htmlhtmlFor="quantity"><h1>distance</h1></label>
- <input style={{borderRadius:'30px'}} className='mx-3'  type="number" name="distance" onChange={onchange}  ></input>
+ <label className='mx-3 text-4xl' htmlhtmlFor="quantity"><h1>Distance</h1></label>
+ <input  className='mx-3 rounded px-4'  type="number" name="distance" onChange={onchange}  ></input>
  </div>
- <div style={{margin:'50px'}}>
+ <div >
  
- <label classNameName='mx-3' htmlhtmlFor="quantity"><h1>time</h1></label>
- <input style={{borderRadius:'30px'}} className='mx-3' type="number" name="time"  onChange={onchange} ></input>
- </div> 
- <button style={{margin:'50px'}} type="submit" className="btn btn-primary" onClick={submit} >Calculate</button>
+ <label className='mx-3 text-4xl' htmlhtmlFor="quantity"><h1>Time</h1></label>
+ <input  className='mx-3 rounded px-4' type="number" name="time"  onChange={onchange} ></input>
+ </div > 
+ <button  type="submit" className="my-10 rounded bg-blue-700 p-3 hover:bg-blue-900 " onClick={submit} >Calculate</button>
 
  </div>
     </>
